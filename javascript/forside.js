@@ -7,6 +7,8 @@ const slideshow = [
   "img/v6.jpg",
   "img/v7.jpg",
   "img/v8.jpg",
+  "img/v9.jpg",
+  "img/v10.jpg",
 ];
 var i = 0;
 function cambiarImagen() {
@@ -21,3 +23,6 @@ function cambiarImagen() {
 window.onload = cambiarImagen;
 
 /*******************/
+function submitForm() {
+  alert("Du er nu igang med at booke et bord!");
+}

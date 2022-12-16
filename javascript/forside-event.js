@@ -1,4 +1,3 @@
-
 var imlocation = "images/";
 function ImageArray(n) {
   this.length = n;
@@ -17,9 +16,10 @@ image[5] = "fredag.jpg";
 image[6] = "lørdag.jpg";
 var currentdate = new Date();
 var imagenumber = currentdate.getDay();
-document.write('<img src="' + imlocation + image[imagenumber] + '"class="center">');
+document.write(
+  '<img src="' + imlocation + image[imagenumber] + '"class="center">'
+);
 
 {
-    document.getElementById("test");
-  }
-  
+  document.getElementById("test");
+}

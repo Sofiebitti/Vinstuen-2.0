@@ -99,23 +99,8 @@
   text-decoration: none;
 }
 .cards > a:hover > h1 {
-  color: rgb(232, 55, 55);
+  color: #844146;
   transition: 0.2s;
-}
-.cards > a:hover > hr {
-  color: rgb(232, 55, 55);
-  background-color: rgb(232, 55, 55);
-  transition: 0.2s;
-}
-hr {
-  height: 2px;
-  width: 100%;
-  color: white;
-  background-color: white;
-
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
