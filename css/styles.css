@@ -167,7 +167,7 @@ body {
 
   .navbar .menu-items {
     padding-top: 170px;
-    background-image: url(images/footer-mobil.png);
+    background-image: url(/images/footer-mobil.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 130vh;
