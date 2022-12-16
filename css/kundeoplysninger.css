@@ -69,11 +69,14 @@ form input[type="submit"]:hover {
 }
 
 @media (max-width: 992px) {
+  .banner > h2 {
+    margin-top: 110px;
+  }
   .card-container {
     grid-template-columns: 100%;
     width: 100vw;
   }
   .card-img {
-    height: 330px;
+    display: none;
   }
 }

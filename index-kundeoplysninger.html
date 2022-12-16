@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kundeoplysninger</title>
-    <link rel="stylesheet" href="css/kundeoplysninger.css" />
+    <title>Forside</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/uvi2mth.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/kundeoplysninger.css" />
+    <script
+      src="https://kit.fontawesome.com/c30e8277c5.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <!--Nav Computer-->
   <nav class="nav_computer">
@@ -18,7 +25,25 @@
       <li>
         <a href="index-events.html">Ugentlige events</a>
       </li>
-      <li><a href="book-bord.html">Book bord</a></li>
+      <li>
+        <a style="color: darkolivegreen" href="index-kundeoplysninger.html"
+          >Book bord</a
+        >
+      </li>
+    </ul>
+  </nav>
+
+  <!--Nav Computer-->
+  <nav class="nav_computer">
+    <div>
+      <a href="index.html"><img class="logo" src="images/logo.png" alt="" /></a>
+    </div>
+    <ul>
+      <li><a href="index-omos.html">Om os</a></li>
+      <li>
+        <a href="index-events.html">Ugentlige events</a>
+      </li>
+      <li><a href="index-kundeoplysninger.html">Book bord</a></li>
     </ul>
   </nav>
 
@@ -39,23 +64,22 @@
           /></a>
         </div>
         <div class="menu-items">
-          <li><a href="#">Om os</a></li>
+          <li><a href="index-omos.html">Om os</a></li>
           <li>
-            <a href="http://127.0.0.1:5500/Vinstuen-1/website/index-events.html"
-              >Ugentlige Events</a
-            >
+            <a href="index-events.html">Ugentlige Events</a>
           </li>
-          <li><a href="#">Book bord</a></li>
+          <li><a href="index-kundeoplysninger.html">Book bord</a></li>
         </div>
       </div>
     </div>
   </nav>
 
   <!--Nav Mobil Burger menu-->
+  <!---------------------------------------------------------->
   <!--------------------------------------------------------->
   <body>
     <section class="banner">
-      <h2>BOOK YOUR TABLE NOW</h2>
+      <h2>Book bord</h2>
       <div class="card-container">
         <div class="card-img"></div>
 
@@ -64,14 +88,14 @@
           <form name="myForm" action="action.html">
             <div class="form-row">
               <select id="days" name="days">
-                <option value="day-select">Select Day</option>
-                <option value="sunday">Sunday</option>
-                <option value="monday">Monday</option>
-                <option value="tuesday">Tuesday</option>
-                <option value="wednesday">Wednesday</option>
-                <option value="thursday">Thursday</option>
-                <option value="friday">Friday</option>
-                <option value="saturday">Saturday</option>
+                <option value="day-select">Vælg dag</option>
+                <option value="sunday">Søndag</option>
+                <option value="monday">Mandag</option>
+                <option value="tuesday">Tirsdag</option>
+                <option value="wednesday">Onsdag</option>
+                <option value="thursday">Torsdag</option>
+                <option value="friday">Fredag</option>
+                <option value="saturday">Lørdag</option>
               </select>
 
               <select id="hours" name="hours">
@@ -101,6 +125,55 @@
     </section>
     <script src="javascript/script.js"></script>
     <!---------------- <input type="submit" onclick="submitForm()" value="Book Bord" />--------------------------------------------------->
-    <!--JAVASCRIPT-->
+    <!----------KORT------------------->
+    <section class="overskrift"><h2>Find os her</h2></section>
+    <div class="kort">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1008.3007817888054!2d10.207594711868783!3d56.155317262312586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f916b0b1eed%3A0x72483e7cb3d85850!2sFiskergyde%2015%2C%208000%20Aarhus!5e0!3m2!1sda!2sdk!4v1671085566627!5m2!1sda!2sdk"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <!----------KORT------------------->
+
+    <!--footer-->
+
+    <footer>
+      <section class="section-footer">
+        <a href="#"><img class="footer-logo" src="images/logo.png" alt="" /></a>
+      </section>
+      <section class="footer-info">
+        <div>
+          <h2>Kontaktoplysninger</h2>
+          <br />
+          <p>Fiskergyde 15, 8000 Aarhus</p>
+          <br />
+          <p>info@vinstuen.com</p>
+          <br />
+          <p>45+ 86 12 10 37</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.facebook.com"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com"
+            ><i class="fa-brands fa-instagram"></i></a
+          ><br /><br />
+          <p>Cookie- og privatspolitik</p>
+        </div>
+
+        <div>
+          <h2>Åbningstider</h2>
+          <br />
+          <p>Mandag - torsdag: 10.00-05.00</p>
+          <br />
+          <p>Fredag og lørdag: 10.00-06.00</p>
+          <br />
+          <p>Søndag: 16.00-03.00</p>
+          <br />
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
