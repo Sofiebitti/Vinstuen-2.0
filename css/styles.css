@@ -227,6 +227,7 @@ section.topbillede {
 }
 section.topbillede > img {
   width: 100%;
+  object-fit: cover;
 }
 @media screen and (min-width: 768px) {
   section.topbillede > img {
