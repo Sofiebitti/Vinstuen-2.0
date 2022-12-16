@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kundeoplysninger</title>
+    <link rel="stylesheet" href="css/kundeoplysninger.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <!--Nav Computer-->
+  <nav class="nav_computer">
+    <div>
+      <a href="index.html"><img class="logo" src="images/logo.png" alt="" /></a>
+    </div>
+    <ul>
+      <li><a href="index-omos.html">Om os</a></li>
+      <li>
+        <a href="index-events.html">Ugentlige events</a>
+      </li>
+      <li><a href="book-bord.html">Book bord</a></li>
+    </ul>
+  </nav>
+
+  <!--Nav Computer-->
+  <!--Nav Mobil Burger menu-->
+  <nav id="burger">
+    <div class="navbar">
+      <div class="container nav-container">
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <div>
+          <a class="logo-ref" href="index.html"
+            ><img class="logoburger" src="images/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="menu-items">
+          <li><a href="#">Om os</a></li>
+          <li>
+            <a href="http://127.0.0.1:5500/Vinstuen-1/website/index-events.html"
+              >Ugentlige Events</a
+            >
+          </li>
+          <li><a href="#">Book bord</a></li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--Nav Mobil Burger menu-->
+  <!--------------------------------------------------------->
+  <body>
+    <section class="banner">
+      <h2>BOOK YOUR TABLE NOW</h2>
+      <div class="card-container">
+        <div class="card-img"></div>
+
+        <div class="card-content">
+          <h3>Reservation</h3>
+          <form name="myForm" action="action.html">
+            <div class="form-row">
+              <select id="days" name="days">
+                <option value="day-select">Select Day</option>
+                <option value="sunday">Sunday</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday</option>
+              </select>
+
+              <select id="hours" name="hours">
+                <option value="hour-select">Tidspunkt</option>
+                <option value="10">10: 00</option>
+                <option value="10">12: 00</option>
+                <option value="10">14: 00</option>
+                <option value="10">16: 00</option>
+                <option value="10">18: 00</option>
+                <option value="10">20: 00</option>
+                <option value="10">22: 00</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <input id="navn" type="text" placeholder="Fulde navn" />
+              <input type="text" placeholder="Telefonnummer" />
+            </div>
+
+            <div class="form-row">
+              <input type="number" placeholder="Antal personer" min="1" />
+              <input type="submit" onclick="submitForm()" value="Book Bord" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="javascript/script.js"></script>
+    <!---------------- <input type="submit" onclick="submitForm()" value="Book Bord" />--------------------------------------------------->
+    <!--JAVASCRIPT-->
+  </body>
+</html>
