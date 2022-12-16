@@ -1,20 +1,5 @@
 /*SLIDER START*/
-/*
-@keyframes fade {
-  0% {
-      opacity: 0.5;
-  }
-  20% {
-      opacity: 1;
-  }
-  80% {
-      opacity: 1;
-  }
-  100% {
-      opacity: 0.5;
-  }
-}
-*/
+
 .center {
   display: flex;
   justify-content: center;
@@ -61,11 +46,14 @@
 @media screen and (max-width: 768px) {
   .centered {
     font-size: 20pt;
+    padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 768px) {
   .centered {
-    font-size: 80pt;
+    font-size: 70pt;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
   }
 }
 .centered {
