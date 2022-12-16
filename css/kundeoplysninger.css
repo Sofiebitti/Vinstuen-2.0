@@ -80,3 +80,21 @@ form input[type="submit"]:hover {
     display: none;
   }
 }
+.firenul {
+  margin-top: 60px;
+  justify-content: center;
+  text-align: center;
+}
+.firenul > img {
+  width: 65%;
+}
+@media screen and (max-width: 768px) {
+  .firenul {
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  .firenul > img {
+    width: 90%;
+  }
+}
