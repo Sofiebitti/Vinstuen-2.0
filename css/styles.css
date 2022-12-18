@@ -8,8 +8,9 @@
 }
 
 body {
-  background-image: url(/images/grøn-baggrund.png);
+  background-image: url("/images/grøn-baggrund.png");
   background-size: cover;
+  background-color: #282828;
 }
 /*Nav computer*/ /*https://www.google.com/search?q=transparent+header+html+css&rlz=1C1CHBD_daDK904DK904&sxsrf=ALiCzsYFpPFJOWZp5_mD-t7p3mVX1bOY0Q%3A1670407442660&ei=EmWQY8HyJ6-Fxc8PmaiiyA8&oq=transparent+header+ht&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgoIABCABBCHAhAUMggIABCABBDLATIGCAAQFhAeMgYIABAWEB4yBQgAEIYDMgUIABCGAzIFCAAQhgM6BggAEAcQHjoECAAQQzoFCAAQgAQ6CAgAEBYQHhAPOgUIABCiBEoECEEYAEoECEYYAFAAWK4eYPokaAFwAHgAgAFqiAGCBJIBAzUuMZgBAKABAcABAQ&sclient=gws-wiz-serp#fpstate=ive&vld=cid:63e428f1,vid:ZotQNKyvZsw*/
 @media screen and (min-width: 768px) {
