@@ -7,13 +7,13 @@ function ImageArray(n) {
 }
 
 image = new ImageArray(7);
-image[0] = "søndag.jpg";
+image[0] = "sondag.png";
 image[1] = "mandag.jpg";
 image[2] = "tirsdag.jpg";
 image[3] = "onsdag.jpg";
 image[4] = "torsdag.jpg";
 image[5] = "fredag.jpg";
-image[6] = "lørdag.jpg";
+image[6] = "lordag.png";
 var currentdate = new Date();
 var imagenumber = currentdate.getDay();
 document.write(
